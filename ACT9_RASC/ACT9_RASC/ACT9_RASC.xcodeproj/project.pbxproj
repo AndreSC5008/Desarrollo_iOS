@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45139D0A270E305000CF86D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45139D09270E305000CF86D9 /* AppDelegate.swift */; };
+		45139D0C270E305000CF86D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45139D0B270E305000CF86D9 /* SceneDelegate.swift */; };
+		45139D0E270E305000CF86D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45139D0D270E305000CF86D9 /* ViewController.swift */; };
+		45139D11270E305000CF86D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45139D0F270E305000CF86D9 /* Main.storyboard */; };
+		45139D13270E305100CF86D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45139D12270E305100CF86D9 /* Assets.xcassets */; };
+		45139D16270E305100CF86D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45139D14270E305100CF86D9 /* LaunchScreen.storyboard */; };
+		45139D21270E305200CF86D9 /* ACT9_RASCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45139D20270E305200CF86D9 /* ACT9_RASCTests.swift */; };
+		45139D2C270E305200CF86D9 /* ACT9_RASCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45139D2B270E305200CF86D9 /* ACT9_RASCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45139D1D270E305200CF86D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45139CFE270E305000CF86D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45139D05270E305000CF86D9;
+			remoteInfo = ACT9_RASC;
+		};
+		45139D28270E305200CF86D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45139CFE270E305000CF86D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45139D05270E305000CF86D9;
+			remoteInfo = ACT9_RASC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45139D06270E305000CF86D9 /* ACT9_RASC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACT9_RASC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45139D09270E305000CF86D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45139D0B270E305000CF86D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45139D0D270E305000CF86D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45139D10270E305000CF86D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45139D12270E305100CF86D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45139D15270E305100CF86D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45139D17270E305100CF86D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45139D1C270E305200CF86D9 /* ACT9_RASCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACT9_RASCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45139D20270E305200CF86D9 /* ACT9_RASCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACT9_RASCTests.swift; sourceTree = "<group>"; };
+		45139D22270E305200CF86D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45139D27270E305200CF86D9 /* ACT9_RASCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACT9_RASCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45139D2B270E305200CF86D9 /* ACT9_RASCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACT9_RASCUITests.swift; sourceTree = "<group>"; };
+		45139D2D270E305200CF86D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45139D03270E305000CF86D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45139D19270E305200CF86D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45139D24270E305200CF86D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45139CFD270E305000CF86D9 = {
+			isa = PBXGroup;
+			children = (
+				45139D08270E305000CF86D9 /* ACT9_RASC */,
+				45139D1F270E305200CF86D9 /* ACT9_RASCTests */,
+				45139D2A270E305200CF86D9 /* ACT9_RASCUITests */,
+				45139D07270E305000CF86D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45139D07270E305000CF86D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45139D06270E305000CF86D9 /* ACT9_RASC.app */,
+				45139D1C270E305200CF86D9 /* ACT9_RASCTests.xctest */,
+				45139D27270E305200CF86D9 /* ACT9_RASCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45139D08270E305000CF86D9 /* ACT9_RASC */ = {
+			isa = PBXGroup;
+			children = (
+				45139D09270E305000CF86D9 /* AppDelegate.swift */,
+				45139D0B270E305000CF86D9 /* SceneDelegate.swift */,
+				45139D0D270E305000CF86D9 /* ViewController.swift */,
+				45139D0F270E305000CF86D9 /* Main.storyboard */,
+				45139D12270E305100CF86D9 /* Assets.xcassets */,
+				45139D14270E305100CF86D9 /* LaunchScreen.storyboard */,
+				45139D17270E305100CF86D9 /* Info.plist */,
+			);
+			path = ACT9_RASC;
+			sourceTree = "<group>";
+		};
+		45139D1F270E305200CF86D9 /* ACT9_RASCTests */ = {
+			isa = PBXGroup;
+			children = (
+				45139D20270E305200CF86D9 /* ACT9_RASCTests.swift */,
+				45139D22270E305200CF86D9 /* Info.plist */,
+			);
+			path = ACT9_RASCTests;
+			sourceTree = "<group>";
+		};
+		45139D2A270E305200CF86D9 /* ACT9_RASCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45139D2B270E305200CF86D9 /* ACT9_RASCUITests.swift */,
+				45139D2D270E305200CF86D9 /* Info.plist */,
+			);
+			path = ACT9_RASCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45139D05270E305000CF86D9 /* ACT9_RASC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45139D30270E305200CF86D9 /* Build configuration list for PBXNativeTarget "ACT9_RASC" */;
+			buildPhases = (
+				45139D02270E305000CF86D9 /* Sources */,
+				45139D03270E305000CF86D9 /* Frameworks */,
+				45139D04270E305000CF86D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACT9_RASC;
+			productName = ACT9_RASC;
+			productReference = 45139D06270E305000CF86D9 /* ACT9_RASC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45139D1B270E305200CF86D9 /* ACT9_RASCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45139D33270E305200CF86D9 /* Build configuration list for PBXNativeTarget "ACT9_RASCTests" */;
+			buildPhases = (
+				45139D18270E305200CF86D9 /* Sources */,
+				45139D19270E305200CF86D9 /* Frameworks */,
+				45139D1A270E305200CF86D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45139D1E270E305200CF86D9 /* PBXTargetDependency */,
+			);
+			name = ACT9_RASCTests;
+			productName = ACT9_RASCTests;
+			productReference = 45139D1C270E305200CF86D9 /* ACT9_RASCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45139D26270E305200CF86D9 /* ACT9_RASCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45139D36270E305200CF86D9 /* Build configuration list for PBXNativeTarget "ACT9_RASCUITests" */;
+			buildPhases = (
+				45139D23270E305200CF86D9 /* Sources */,
+				45139D24270E305200CF86D9 /* Frameworks */,
+				45139D25270E305200CF86D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45139D29270E305200CF86D9 /* PBXTargetDependency */,
+			);
+			name = ACT9_RASCUITests;
+			productName = ACT9_RASCUITests;
+			productReference = 45139D27270E305200CF86D9 /* ACT9_RASCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45139CFE270E305000CF86D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = user188672;
+				TargetAttributes = {
+					45139D05270E305000CF86D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					45139D1B270E305200CF86D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 45139D05270E305000CF86D9;
+					};
+					45139D26270E305200CF86D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 45139D05270E305000CF86D9;
+					};
+				};
+			};
+			buildConfigurationList = 45139D01270E305000CF86D9 /* Build configuration list for PBXProject "ACT9_RASC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45139CFD270E305000CF86D9;
+			productRefGroup = 45139D07270E305000CF86D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45139D05270E305000CF86D9 /* ACT9_RASC */,
+				45139D1B270E305200CF86D9 /* ACT9_RASCTests */,
+				45139D26270E305200CF86D9 /* ACT9_RASCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45139D04270E305000CF86D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45139D16270E305100CF86D9 /* LaunchScreen.storyboard in Resources */,
+				45139D13270E305100CF86D9 /* Assets.xcassets in Resources */,
+				45139D11270E305000CF86D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45139D1A270E305200CF86D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45139D25270E305200CF86D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45139D02270E305000CF86D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45139D0E270E305000CF86D9 /* ViewController.swift in Sources */,
+				45139D0A270E305000CF86D9 /* AppDelegate.swift in Sources */,
+				45139D0C270E305000CF86D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45139D18270E305200CF86D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45139D21270E305200CF86D9 /* ACT9_RASCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45139D23270E305200CF86D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45139D2C270E305200CF86D9 /* ACT9_RASCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45139D1E270E305200CF86D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45139D05270E305000CF86D9 /* ACT9_RASC */;
+			targetProxy = 45139D1D270E305200CF86D9 /* PBXContainerItemProxy */;
+		};
+		45139D29270E305200CF86D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45139D05270E305000CF86D9 /* ACT9_RASC */;
+			targetProxy = 45139D28270E305200CF86D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45139D0F270E305000CF86D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45139D10270E305000CF86D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45139D14270E305100CF86D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45139D15270E305100CF86D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45139D2E270E305200CF86D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45139D2F270E305200CF86D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45139D31270E305200CF86D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FSQJ8F4X63;
+				INFOPLIST_FILE = ACT9_RASC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.ACT9-RASC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45139D32270E305200CF86D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FSQJ8F4X63;
+				INFOPLIST_FILE = ACT9_RASC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.ACT9-RASC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45139D34270E305200CF86D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FSQJ8F4X63;
+				INFOPLIST_FILE = ACT9_RASCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.ACT9-RASCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACT9_RASC.app/ACT9_RASC";
+			};
+			name = Debug;
+		};
+		45139D35270E305200CF86D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FSQJ8F4X63;
+				INFOPLIST_FILE = ACT9_RASCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.ACT9-RASCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACT9_RASC.app/ACT9_RASC";
+			};
+			name = Release;
+		};
+		45139D37270E305200CF86D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FSQJ8F4X63;
+				INFOPLIST_FILE = ACT9_RASCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.ACT9-RASCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ACT9_RASC;
+			};
+			name = Debug;
+		};
+		45139D38270E305200CF86D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FSQJ8F4X63;
+				INFOPLIST_FILE = ACT9_RASCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.ACT9-RASCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ACT9_RASC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45139D01270E305000CF86D9 /* Build configuration list for PBXProject "ACT9_RASC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45139D2E270E305200CF86D9 /* Debug */,
+				45139D2F270E305200CF86D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45139D30270E305200CF86D9 /* Build configuration list for PBXNativeTarget "ACT9_RASC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45139D31270E305200CF86D9 /* Debug */,
+				45139D32270E305200CF86D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45139D33270E305200CF86D9 /* Build configuration list for PBXNativeTarget "ACT9_RASCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45139D34270E305200CF86D9 /* Debug */,
+				45139D35270E305200CF86D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45139D36270E305200CF86D9 /* Build configuration list for PBXNativeTarget "ACT9_RASCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45139D37270E305200CF86D9 /* Debug */,
+				45139D38270E305200CF86D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45139CFE270E305000CF86D9 /* Project object */;
+}
